@@ -1,1 +1,15 @@
 /*styles*/
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3{
+    font-family: "Caveat", cursive;
+}
+.jumbotron{
+    background-color: #dc3545a1;
+}
+footer{
+    background-image: linear-gradient(#dc3545a1, white);
+    padding: 20px 0;
+}
