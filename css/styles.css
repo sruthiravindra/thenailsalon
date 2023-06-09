@@ -1,6 +1,8 @@
 /*styles*/
 body{
     font-family: "DM Sans", cursive;
+    background:rgb(255, 255, 255);
+    color: rgb(75, 79, 88);
 }
 
 h1, h2{
@@ -15,10 +17,13 @@ h3, h4, h5 {
     margin-bottom: 0px;;   
 }
 .navbar{
-    background-image: linear-gradient(#dc3545a1, white);
+    background-color: #bb1827a1;
 }
 .navbar, .navbar > a {
     font-family: "DM Sans", cursive;
+}
+nav[aria-label="breadcrumb"]{
+    background-color: #e9ecef;
 }
 footer{
     background-image: linear-gradient(#dc3545a1, white);
@@ -28,4 +33,16 @@ footer{
     position: absolute;
     right: 0px;
     top:20px;
+}
+
+/*about us page styles*/
+.aboutus .aboutus_story{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.aboutus .aboutus_ourteam{
+    background-color: rgb(236, 240, 241);
+    padding-top:20px;
+    padding-bottom:20px;
+
 }
