@@ -10,7 +10,12 @@ h3, h4, h5 {
     font-family: "Roboto",sans-serif;
 }
 .jumbotron{
-    background-color: #dc3545a1;    
+    padding: 30px;
+    background-color: #dc3545a1; 
+    margin-bottom: 0px;;   
+}
+.navbar, .navbar > a {
+    font-family: "Caveat", cursive;
 }
 footer{
     background-image: linear-gradient(#dc3545a1, white);
