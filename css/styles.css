@@ -1,23 +1,31 @@
 /*styles*/
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "DM Sans", cursive;
 }
 
 h1, h2{
     font-family: "Caveat", cursive;
 }
 h3, h4, h5 {
-    font-family: "Roboto",sans-serif;
+    font-family: "DM Sans",cursive;
 }
 .jumbotron{
     padding: 30px;
     background-color: #dc3545a1; 
     margin-bottom: 0px;;   
 }
+.navbar{
+    background-image: linear-gradient(#dc3545a1, white);
+}
 .navbar, .navbar > a {
-    font-family: "Caveat", cursive;
+    font-family: "DM Sans", cursive;
 }
 footer{
     background-image: linear-gradient(#dc3545a1, white);
     padding: 20px 0;
+}
+#btnMakeAnAppointment{
+    position: absolute;
+    right: 0px;
+    top:20px;
 }
