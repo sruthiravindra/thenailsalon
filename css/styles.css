@@ -34,15 +34,14 @@ footer{
     right: 0px;
     top:20px;
 }
-
-/*about us page styles*/
-.aboutus .aboutus_story{
+.contentsection{
     padding-top:20px;
     padding-bottom:20px;
 }
+/*about us page styles*/
 .aboutus .aboutus_ourteam{
     background-color: rgb(236, 240, 241);
-    padding-top:20px;
-    padding-bottom:20px;
 
 }
+
+/*contact us page styles*/
