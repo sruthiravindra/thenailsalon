@@ -1,26 +1,37 @@
 /*styles*/
 body{
-    font-family: "DM Sans", cursive;
+    font-family: "Arial", "sans serif";
     background:rgb(255, 255, 255);
     color: rgb(75, 79, 88);
 }
 
-h1, h2{
-    font-family: "Caveat", cursive;
+h1 {
+    font-family: "Zeyada", cursive;
+    line-height: 0.5;
+    font-size: 4.5em;
+    color: white;
 }
+
+h2 {
+    font-family: "Arial","sans serif";
+    color: white;
+    font-size: 1em;
+}
+    
+
 h3, h4, h5 {
-    font-family: "DM Sans",cursive;
+    font-family: "Arial","sans serif";
 }
 .jumbotron{
     padding: 30px;
-    background-color: #dc3545a1; 
+    background-color: #f9d9dc; 
     margin-bottom: 0px;;   
 }
 .navbar{
-    background-color: #bb1827a1;
+    background-color: #f1b1b8;
 }
 .navbar, .navbar > a {
-    font-family: "DM Sans", cursive;
+    font-family: "Arial", "sans serif";
 }
 nav[aria-label="breadcrumb"]{
     background-color: #e9ecef;
@@ -29,15 +40,21 @@ footer{
     background-image: linear-gradient(#dc3545a1, white);
     padding: 20px 0;
 }
-#btnMakeAnAppointment{
-    position: absolute;
-    right: 0px;
-    top:20px;
-}
+
 .contentsection{
     padding-top:20px;
     padding-bottom:20px;
 }
+
+.btn {
+    background-color: #f6c5cb;
+    border: solid white 1px;
+}
+
+.nav-link {
+        color: white;
+}
+
 /*about us page styles*/
 .aboutus .aboutus_ourteam{
     background-color: rgb(236, 240, 241);
