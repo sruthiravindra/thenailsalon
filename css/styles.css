@@ -48,7 +48,8 @@ footer{
 
 .btn {
     background-color: #f6c5cb;
-    border: solid white 1px;
+    border: solid #d06975 1px;
+    color: #d06975;
 }
 
 /*about us page styles*/
@@ -57,4 +58,16 @@ footer{
 
 }
 
-/*contact us page styles*/
+/*services page styles*/
+
+.price {
+    color: #d06975;
+    margin: 0.5em 0.5em;
+}
+
+.nav-pills .nav-link {
+    color: #d06975;
+    border: 1px solid #d06975;
+    margin: 0.5em;
+}
+
