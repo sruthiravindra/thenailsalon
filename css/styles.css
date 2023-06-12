@@ -51,10 +51,6 @@ footer{
     border: solid white 1px;
 }
 
-.nav-link {
-        color: white;
-}
-
 /*about us page styles*/
 .aboutus .aboutus_ourteam{
     background-color: rgb(236, 240, 241);
