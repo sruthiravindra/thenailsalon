@@ -37,8 +37,15 @@ nav[aria-label="breadcrumb"]{
     background-color: #e9ecef;
 }
 footer{
-    background-image: linear-gradient(#dc3545a1, white);
+    background-image: linear-gradient(#f9d9dc, white);
     padding: 20px 0;
+    font-size: 0.9em;
+    color: #d06975;
+    text-align: center;
+}
+
+a {
+    color: black;
 }
 
 .contentsection{
