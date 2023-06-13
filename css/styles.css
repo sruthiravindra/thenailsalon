@@ -6,29 +6,33 @@ body{
 }
 
 h1 {
-    font-family: "Zeyada", cursive;
-    line-height: 0.5;
+    font-family: "Quicksand", cursive;
     font-size: 4.5em;
-    color: white;
+    color: #0755c3;
 }
 
 h2 {
-    font-family: "Arial","sans serif";
-    color: white;
+    font-family: "Quicksand","sans serif";
+    color: #0755c3;
     font-size: 1em;
 }
-    
+
+h3 {
+    font-family: "Quicksand", "sans serif";
+    color: #0755c3;
+    margin: 1em;
+}
 
 h3, h4, h5 {
     font-family: "Arial","sans serif";
 }
 .jumbotron{
     padding: 30px;
-    background-color: #f9d9dc; 
-    margin-bottom: 0px;;   
+    background-color: white; 
+    margin-bottom: 0px; 
 }
 .navbar{
-    background-color: #f1b1b8;
+    background-color: #3f8efc;
 }
 .navbar, .navbar > a {
     font-family: "Arial", "sans serif";
@@ -37,10 +41,10 @@ nav[aria-label="breadcrumb"]{
     background-color: #e9ecef;
 }
 footer{
-    background-image: linear-gradient(#f9d9dc, white);
+    background-image: linear-gradient(#a5cafc, white);
     padding: 20px 0;
     font-size: 0.9em;
-    color: #d06975;
+    color: #0755c3;
     text-align: center;
 }
 
@@ -54,9 +58,9 @@ a {
 }
 
 .btn {
-    background-color: #f6c5cb;
-    border: solid #d06975 1px;
-    color: #d06975;
+    background-color: #a5cafc;
+    border: solid #0755c3 1px;
+    color: #0755c3;
 }
 
 /*about us page styles*/
@@ -68,13 +72,13 @@ a {
 /*services page styles*/
 
 .price {
-    color: #d06975;
+    color: #0755c3;
     margin: 0.5em 0.5em;
 }
 
 .nav-pills .nav-link {
-    color: #d06975;
-    border: 1px solid #d06975;
+    color: #0755c3;
+    border: 1px solid #0755c3;
     margin: 0.5em;
 }
 
